@@ -1,0 +1,25 @@
+{
+  "name": "JS",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node your-script.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/Thivakorn/softeng-82.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/Thivakorn/softeng-82/issues"
+  },
+  "homepage": "https://gitlab.com/Thivakorn/softeng-82#readme",
+  "dependencies": {
+    "class-transformer": "^0.3.1",
+    "class-validator": "^0.12.2"
+  }
+}

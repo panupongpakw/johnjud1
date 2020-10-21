@@ -1,0 +1,53 @@
+.bookmark-body {
+    background-color: #f5f8fa;
+    height: 16.5cm;
+}
+
+.bookmark-container {
+    background-color: #ffffff;
+    margin-left: 150px;
+    margin-right: 150px;
+    height: 16.5cm;
+}
+
+.bookmark {
+    background-color: #b19d85;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+    border-bottom: 20px solid #ffffff;
+    font-size: 34px;
+    color: white;
+}
+
+* {
+    font-family: 'Prompt', sans-serif;
+}
+
+.row-pet {
+    background-color: #ffffff;
+    /*background-color: red;*/
+    //float: left;
+}
+
+.col-pet {
+    float: left;
+    text-align: center;
+    font-size: 17px;
+    background-color: #f5f8fa;
+    //background-color: #61dafb;
+    margin: 28px;
+    box-shadow: 0 5px 10px 2px #c5c5c5;
+    //border-bottom: 7px solid #f5f8fa;
+    //padding: 55px;
+    padding-bottom: 35px;
+    height: 130px;
+    width: 184px;
+}
+
+.pet-img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block; /* remove extra space below image */
+    padding-bottom: 7px;
+}

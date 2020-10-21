@@ -1,0 +1,78 @@
+.Article {
+    display: block;
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    margin-left: 40px;
+    font-weight: bold;
+}
+
+.ArticleText {
+    /*color: crimson;*/
+    display: block;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    margin-left: 40px;
+    /*margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;*/
+}
+
+.article-link-text {
+    font-size: 20px; /*ขนาดตัวอักษรชื่อบทความ*/
+    color: #968474;
+    margin-left: 20px;
+    margin-right: 570px;
+}
+
+.article-alert {
+    /*background-color:#61dafb;*/
+    background-color:#F5F8FA;
+    margin-left: 50px;
+    margin-right: 50px;
+    box-shadow: 2px 2px 7px 1px #282c34;
+    padding: 12px; /*ขนาดกล่องชื่อบทความ*/
+    color: #d5d6d7;
+}
+
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 10px;
+    color: white;
+    text-align: left;
+}
+
+.search {
+    margin-left: 50px; /*ระยะขอบซ้าย*/
+}
+
+input[type=text] {
+    width: 180px; /*ความยาวช่องค้นหา*/
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-image: url("../../component/article/search icon.png"); /*ใส่รูปแว่นขยาย*/
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out; /*ทำให้ค่อยๆยืด*/
+    transition: width 0.4s ease-in-out;
+}
+
+/* When the input field gets focus, change its width to 100% */
+input[type=text]:focus {
+    width: 25%; /*เปอเซ็นต์การยืดหด*/
+}
+
+input.search {
+    background-color:#DCDDDE; /*สีพื้นหลังช่องค้นหา*/
+}
+
+
+.Article,.ArticleText,.article-link-text,input[type=text] {
+    font-family: 'Prompt', sans-serif;
+}

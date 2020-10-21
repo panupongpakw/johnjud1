@@ -1,0 +1,41 @@
+.body {
+    background-color: #F5F8FA;
+    /*background-color: #61dafb;*/
+    height: 17cm;
+}
+
+.container1 {
+    margin-left: 4cm;
+    background-color: white;
+    height: 17cm;
+    width: 25cm;
+}
+
+.headText{
+    background-color: #968474;
+    color: #F5F8FA;
+    margin-right: 7cm;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+    border-top: 25px solid #ffffff;
+    border-bottom: 7px solid #968474;
+    font-size: xx-large;
+}
+
+.imageCSS {
+    margin-top: 0.5cm;
+    margin-left: 2.5cm;
+    width: 80%;
+}
+
+.text-article {
+    margin-top: 0.5cm;
+    margin-left: 2.5cm;
+    margin-right: 2.5cm;
+    font-size: large;
+}
+
+.body,.headText,.text-article {
+    font-family: 'Prompt', sans-serif;
+}
